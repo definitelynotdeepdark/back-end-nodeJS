@@ -1,0 +1,28 @@
+{
+  "name": "back-end-nodejs",
+  "version": "1.0.0",
+  "description": "backend-learning",
+  "homepage": "https://github.com/definitelynotdeepdark/back-end-nodeJS#readme",
+  "bugs": {
+    "url": "https://github.com/definitelynotdeepdark/back-end-nodeJS/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/definitelynotdeepdark/back-end-nodeJS.git"
+  },
+  "license": "ISC",
+  "author": "deepdark",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node back-end/src/index.js",
+    "dev": "nodemon back-end/src/index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.9.5",
+    "nodemon": "^3.1.14"
+  }
+}
